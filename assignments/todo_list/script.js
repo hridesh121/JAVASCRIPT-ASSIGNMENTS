@@ -7,7 +7,7 @@ var i = 0;
 todobtn.addEventListener("click", additem)
 
 function additem(){
-    var paragraph = document.createElement('p')
+    var paragraph = document.createElement('p');
     paragraph.setAttribute("key",i);
     i = i + 1;
     paragraph.innerHTML = inputfld.value;
